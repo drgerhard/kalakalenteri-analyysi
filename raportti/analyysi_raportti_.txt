@@ -1,0 +1,50 @@
+LAAJENNETTU KALAKALENTERI-ANALYYSI
+==================================
+
+Reissuja: 89
+Arvosana ka: 2.30
+Ilmanpaine ka: 1013.2
+Kalastusaika yhteensä: 0.0 h
+
+--- Keskiarvot: Satoiko ---
+  Ei: 2.12
+  Iltapäivällä pientä tihkua: 2.00
+  Kuuro: 1.00
+  Kuuroja: 2.33
+  Kuuroja tuli, olivat rankkoja: 3.00
+  Kyllä: 1.00
+  Lopussa vähän lunta: 2.00
+  Lunta satoi: 4.00
+  Pilvetön, iltapäivällä lumisade: 3.00
+  eka 2h pouta, sitten kaatamalla: 3.00
+  kuuroja: 3.33
+
+--- Keskiarvot: Uittotyyli ---
+  Houkkaripelti: 2.67
+  Jigi: 3.83
+  Jigi/kuorre: 3.00
+  Kuore: 2.00
+  Mato: 3.00
+  Morri: 1.00
+  Morri : 1.00
+  Morri ja houkkari: 2.00
+  NED: 1.00
+  Tasuri: 2.00
+  Vetäminen: 2.00
+  jigi: 2.12
+  jigi/perho: 2.50
+  morri ja jigi: 3.00
+  serpuska: 3.00
+
+--- Keskiarvot: Tuulen suunta ---
+  Etelä: 1.71
+  Itä: 2.33
+  Kaakko: 4.00
+  Koilinen: 2.00
+  Lounas: 3.00
+  Luode: 2.50
+  Länsi: 2.50
+  Pohjoinen: 2.14
+  Puhjoinen: 2.00
+  Tyyni: 3.00
+
