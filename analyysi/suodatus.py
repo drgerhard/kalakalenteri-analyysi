@@ -1,7 +1,7 @@
-import pandas as pd  # TÄMÄ PUUTTUI
+import pandas as pd  
 
 def laske_kaikki_keskiarvot(df):
-    # Nyt 'pd' on määritelty ja tämä rivi toimii:
+    
     df["Arvosana"] = pd.to_numeric(df["Arvosana"], errors='coerce')
     
     tulokset = {}

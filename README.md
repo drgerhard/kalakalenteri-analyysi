@@ -1,4 +1,22 @@
-﻿# kalakalenteri-analyysi
+﻿19.2.2026 Scriptin parannus
+
+Olen päivittänyt projektia palautteen perusteella seuraavilla ammattimaisilla ominaisuuksilla:
+
+1. **Vikasietoisuus ja virheenkäsittely (Robustness):** 
+   - Lisätty kattava `try-except`-logiikka. Ohjelma ei kaadu puuttuviin tiedostoihin, vaan antaa selkeän virheilmoituksen.
+   - Datan lukemisessa käytetään `pd.to_numeric(errors='coerce')`, joka estää kaatumisen, jos Excelissä on tekstiä numeroiden seassa.
+
+2. **Dynaaminen komentorivikäyttö (Argparse):** 
+   - Ohjelmaa voi nyt ajaa parametreilla, esim: `python paaskripti.py --input oma_data.xlsx`. Tämä tekee työkalusta yleiskäyttöisen.
+
+3. **Älykäs polunhallinta (Pathlib):** 
+   - Kovakoodatut polut on poistettu. Ohjelma käyttää `pathlib`-kirjastoa ja tunnistaa oman sijaintinsa automaattisesti, mikä tekee siitä täysin siirrettävän (siirrettävyys/portability).
+
+4. **Automaattinen infrastruktuuri:** 
+   - Ohjelma tarkistaa ja luo tarvittavat kansiorakenteet (esim. `raportti/`) automaattisesti käynnistyksen yhteydessä.
+
+
+# kalakalenteri-analyysi
 
 Halusin jakaa vastuut eri moduuleihin.
 Yhteiset-kansio sisältää jaetun logiikan.

@@ -1,9 +1,12 @@
-import os
+from pathlib import Path
 
-# Haetaan kansion sijainti
-PROJEKTI_JUURI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Polut tiedostoihin
-EXCEL_POLKU = os.path.join(PROJEKTI_JUURI, "data", "kalakalenteri.xlsx")
-# Luodaan raportti-kansio, jos sitä ei ole, ja tallennetaan sinne txt-tiedosto
-RAPORTTI_POLKU = os.path.join(PROJEKTI_JUURI, "raportti", "analyysi_raportti.txt")
+PROJEKTI_JUURI = Path(__file__).resolve().parent.parent
+
+
+EXCEL_POLKU = PROJEKTI_JUURI / "data" / "Kalakalenteri.xlsx"
+RAPORTTI_KANSIO = PROJEKTI_JUURI / "raportti"
+RAPORTTI_TIEDOSTO = RAPORTTI_KANSIO / "analyysi_raportti.txt"
+
+
+RAPORTTI_KANSIO.mkdir(parents=True, exist_ok=True)
